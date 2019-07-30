@@ -1,5 +1,7 @@
 ## KittenHouse
 
+> This is fork for my own use-case.
+
 KittenHouse is designed to be a local proxy between ClickHouse and your application server in case you are unable or unwilling to buffer INSERT data on your application side. This is the case for PHP, for example.
 
 KittenHouse is meant to be installed on each host of the cluster that needs to interact with ClickHouse and features in-memory data buffering, on-disk data buffering with retries support, per-table routing, load-balancing, health checking, etc.
